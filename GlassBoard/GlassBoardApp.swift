@@ -12,6 +12,7 @@ struct GlassBoardApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-        }
+                .frame(width: 600, height: 400)
+        }.windowResizability(.contentSize)
     }
 }
